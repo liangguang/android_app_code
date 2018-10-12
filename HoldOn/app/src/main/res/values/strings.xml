@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HoldOn</string>
+    <string name="title_home">十秒</string>
+    <string name="initTime">0.000</string>
+    <string name="title_dashboard">语音识别</string>
+    <string name="title_notifications">人脸识别</string>
+</resources>
