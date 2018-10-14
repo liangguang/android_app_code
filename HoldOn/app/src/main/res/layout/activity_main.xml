@@ -83,18 +83,34 @@
         android:layout_height="wrap_content"
         android:background="@color/yellow"
         android:layout_marginTop="20dp"
+        android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="@id/message"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         >
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="600dp"
-
+        <TextView
+            android:id="@+id/audio_result"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:text="Hello"
+            android:textSize="20dp"
             />
 
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="停止" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="开始" />
     </LinearLayout>
 
     <LinearLayout

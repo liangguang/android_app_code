@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 
-public class AudioRecognitionActivity extends Activity {
+public class AudioRecognitionActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
 
